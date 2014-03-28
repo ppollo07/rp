@@ -1,0 +1,45 @@
+/* Your app's CSS, go crazy, make it your own */
+body{
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.bg-image {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-image: url("../img/bg.jpg");
+	background-attachment: fixed; 
+}
+
+.ionic-logo {
+  display: block;
+  margin: 15px auto;
+  width: 96px;
+  height: 96px;
+}
+
+.view, .pane {
+	background: transparent;
+}
+.logo{
+	margin: 0 auto;
+	width: 322px;
+	height: 237px;
+	background: url('../img/logo.png') no-repeat;
+}
+#main-content {
+    color: #FFFFFF;
+    padding: 10px;
+}
+.menu-nav{
+	margin: 0 auto;
+	width: 334px;
+	height: 342px;
+	background: url('../img/bg_menu.png') no-repeat;
+}
+#menu ul > li{
+	display: inline;
+}
