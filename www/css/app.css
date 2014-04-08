@@ -12,6 +12,7 @@ body{
 	background-size: cover;
 	background-image: url("../img/bg.jpg");
 	background-attachment: fixed; 
+	background-size: 100%;
 }
 
 .ionic-logo {
@@ -26,19 +27,19 @@ body{
 }
 .logo{
 	margin: 0 auto;
-	width: 322px;
+	width: 100%;
 	height: 237px;
-	background: url('../img/logo.png') no-repeat;
+	background: url('../img/logo.png') no-repeat center;
 }
 #main-content {
     color: #FFFFFF;
-    padding: 10px;
+    padding: 0px;
 }
 .menu-nav{
 	margin: 0 auto;
-	width: 334px;
+	width: 236px;
 	height: 342px;
-	background: url('../img/bg_menu.png') no-repeat;
+	background: url('../img/bg_menu.png') no-repeat center 100%;
 }
 #menu ul > li{
 	display: inline;
